@@ -1,0 +1,5 @@
+train: 'train/images'
+val: 'val/images'
+path : 'C:/Users/han_jia_qi/datasets/NEU-DET'
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']

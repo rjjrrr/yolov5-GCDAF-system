@@ -1,0 +1,6 @@
+train: train/images
+val: val/images
+test: test/images
+path: yolov5-C3GC模型/kouzhao
+nc: 2
+names: ['Not wearing a mask','Wear a mask']

@@ -1,0 +1,38 @@
+# Local IDE metadata
+.idea/
+**/.idea/
+
+# Python-generated files
+**/__pycache__/
+*.py[cod]
+
+# Local credentials created by the application
+**/users.txt
+
+# Common local secrets
+.env
+.env.*
+!.env.example
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Public portfolio repository: keep source code, omit private/heavy artifacts
+/对比实验数据/
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.ipynb
+events.out.tfevents.*
+**/runs/
+**/weights/
+**/save_data/
+**/temp/
+**/temp_input/
+**/config/table_config.json

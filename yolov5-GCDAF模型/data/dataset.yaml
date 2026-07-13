@@ -1,0 +1,7 @@
+train: train/images
+val: valid/images
+test: test/images
+path: C:/baidunetdiskdownload/Pingpongball
+nc: 1
+names: ['ping-pong-ball']
+
