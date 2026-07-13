@@ -36,3 +36,8 @@ events.out.tfevents.*
 **/temp/
 **/temp_input/
 **/config/table_config.json
+
+# Curated images used by the public README
+!docs/
+!docs/images/
+!docs/images/*.png
